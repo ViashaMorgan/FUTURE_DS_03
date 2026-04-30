@@ -165,9 +165,20 @@ Source: UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/222
 <details>
   <summary> Customer & Conversion Drivers</summary>
 
+<img width="613" height="470" alt="image" src="https://github.com/user-attachments/assets/ed13c46b-5f7a-4234-ac78-d20414dd10f1" />
 
+* Customers with a previous successful campaign have by far the highest conversion rate, showing strong repeat responsiveness
 
+* Indicates that historical success is a strong predictor of future conversion, making it a key targeting factor
+  
 
+<img width="921" height="547" alt="image" src="https://github.com/user-attachments/assets/a2595963-a0f0-4953-bbf2-a98a8db5125d" />
+
+* Students and retirees tend to have more time, lower switching barriers, and may be more responsive to offers or financial products
+
+* Mid-career roles (admin, management, technician) have stable income but are more selective and less impulsive in decision-making
+
+* Blue-collar and service workers may face affordability constraints, lower accessibility, or less alignment with the product being marketed
   
 </details>
 
@@ -175,6 +186,13 @@ Source: UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/222
 <details>
   <summary> Customer Engagement & Behaviour</summary>
 
+<img width="781" height="470" alt="image" src="https://github.com/user-attachments/assets/9b21289a-9dff-474a-a3ed-880909bc343e" />
+
+* Converted customers have significantly longer call durations, indicating that deeper conversations increase likelihood of success
+
+* Short calls are mostly associated with non-conversions, suggesting low engagement or early rejection
+
+* Implies that call quality and engagement time are key drivers of conversion, not just contact frequency
 
 
 
