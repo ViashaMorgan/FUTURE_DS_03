@@ -109,20 +109,18 @@ Source: UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/222
 
 ## 5.) Key Insights
 <details>
-  <summary> Churn Patterns</summary>
+  <summary> Funnel Performance & Drop-Off Insights</summary>
   
 
 
 
   
-
-
 
 
 </details>
 
 <details>
-  <summary> Customer Lifetime Trends</summary>
+  <summary> Campaign and Channel Effectiveness </summary>
 
   
 
@@ -133,25 +131,25 @@ Source: UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/222
 </details>
 
 <details>
-  <summary> Cohort Retention Analysis</summary>
-
-
-
-
-
-
-
-
-
-
-
-
+  <summary> Customer & Conversion Drivers</summary>
 
 
 
 
   
 </details>
+
+
+<details>
+  <summary> Customer Engagement & Behaviour</summary>
+
+
+
+
+  
+</details>
+
+
 
 
 
