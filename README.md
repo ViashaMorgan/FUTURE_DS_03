@@ -123,9 +123,9 @@ Source: UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/222
   
 <img width="713" height="509" alt="image" src="https://github.com/user-attachments/assets/cd32d00d-7f70-4a41-b819-6813294e36e7" />
 
-* Negligible drop-off between initial stages → users are consistently progressing early in the funnel
+* Negligible drop-off between initial stages= users are consistently progressing early in the funnel
 
-* Extremely high drop-off at the conversion stage → most engaged leads fail to convert
+* Extremely high drop-off at the conversion stage= most engaged leads fail to convert
 
 * Confirms a severe bottom-of-funnel issue, where the majority of potential customers are lost right before purchase
 
@@ -135,11 +135,30 @@ Source: UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/222
 <details>
   <summary> Campaign and Channel Effectiveness </summary>
 
+  <img width="622" height="470" alt="image" src="https://github.com/user-attachments/assets/ad82d5a6-1e67-409f-bc58-c6e3ee0d5416" />
+
+* Cellular contact significantly outperforms telephone, with a much higher conversion rate
   
+* Indicates marketing should prioritise cellular channels and reassess or optimise telephone outreach
 
 
 
+<img width="768" height="470" alt="image" src="https://github.com/user-attachments/assets/25efd111-f2cc-4307-86bc-2cc37e1fdf20" />
 
+* Seasonal demand plays a role, as months like March, September–October, and December often align with budget cycles and increased spending
+  
+* Customer intent is lower mid-year (May–August), where users engage but delay making final decisions
+  
+* Marketing efforts, promotions, and external factors like holidays are stronger in peak months, driving higher conversions
+
+
+<img width="855" height="470" alt="image" src="https://github.com/user-attachments/assets/c6ec2a1b-0ca4-4486-ad7f-4af1e83b78e8" />
+
+* Conversion rate declines as the number of contacts increases, showing diminishing returns from repeated outreach
+
+* After a certain point (around 15–20+ contacts), conversion drops to near zero, indicating over-contacting is ineffective
+
+* Suggests an optimal contact range exists, and excessive follow-ups may reduce effectiveness or annoy potential customers
 
 </details>
 
