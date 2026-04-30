@@ -112,9 +112,22 @@ Source: UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/222
   <summary> Funnel Performance & Drop-Off Insights</summary>
   
 
+<img width="713" height="509" alt="image" src="https://github.com/user-attachments/assets/9cd0401e-b6c9-4866-a7a3-53cb45b3bad3" />
 
-
+* Strong acquisition and engagement= users move easily into the funnel
   
+* Significant drop-off at final stage= very low conversion to customers
+  
+* Key issue is bottom-of-funnel= conversion strategy needs optimisation
+  
+  
+<img width="713" height="509" alt="image" src="https://github.com/user-attachments/assets/cd32d00d-7f70-4a41-b819-6813294e36e7" />
+
+* Negligible drop-off between initial stages → users are consistently progressing early in the funnel
+
+* Extremely high drop-off at the conversion stage → most engaged leads fail to convert
+
+* Confirms a severe bottom-of-funnel issue, where the majority of potential customers are lost right before purchase
 
 
 </details>
