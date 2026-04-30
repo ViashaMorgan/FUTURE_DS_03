@@ -24,53 +24,71 @@ Source: UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/222
 
 ## 3.) Analysis Performed
 
-3.1 Data Cleaning & Preprocessing:
+3.1 Data Cleaning & Feature Engineering:
 
-* Removed duplicates and checked for missing values
+* Checked for missing values and duplicates
+  
+* Created a binary converted variable from the target (y)
+  
+* Ensured dataset consistency for analysis
+  
+3.2 Funnel Analysis: 
 
-* Created key variables such as 'converted' to represent campaign outcome
-
-3.2 Funnel Analysis:
-
-* Calculated total users at each stage (contacted → engaged → converted)
-
-* Computed overall conversion rates and visualised funnel performance
-
+* Calculated total users at each stage (visitors → engaged leads → converted customers)
+  
+* Computed overall conversion rate
+  
+* Constructed a funnel dataset to track user progression
+  
 3.3 Drop-off Analysis:
 
-* Measured user loss between funnel stages
+* Calculated drop-off between funnel stages
 
-* Identified where the largest decline in customer progression occurs
+* Identified where the largest loss of users occurs in the funnel
 
-3.4 Campaign Performance Analysis:
+3.4 Contact Channel Analysis
 
-* Analyzed conversion rates by contact type and campaign activity
+* Analyzed conversion rates across different contact methods (contact)
 
-* Evaluated how the number of contacts (campaign) impacts conversion
+* Compared effectiveness of communication channels
 
-3.5 Time-Based Analysis:
+3.5 Monthly Performance Analysis
 
-* Examined conversion performance across different months
+* Examined conversion rates across months (month)
 
-* Identified seasonal patterns in campaign effectiveness
+* Identified seasonal trends in campaign success
 
-3.6 Conversion Driver Analysis: 
+3.6 Campaign Intensity Analysis
 
-* Assessed the impact of previous campaign outcomes (poutcome) on conversion
+* Grouped data by number of contacts (campaign)
 
-* Analyzed conversion rates across customer segments such as job category
+* Calculated conversion rate per contact frequency
 
-3.7 Engagement Analysis:
+* Visualised relationship between campaign intensity and conversion
 
-* Investigated relationship between call duration and conversion likelihood
+3.7 Previous Campaign Outcome Analysis
 
-* Analyzed distribution of call durations to understand engagement patterns
+* Analyzed conversion rates by previous outcome (poutcome)
 
-3.8 Behavioural Analysis:
+* Assessed how past campaign success influences future conversions
 
-* Explored duration-based patterns using grouped intervals (bins)
+3.8 Customer Segmentation Analysis
 
-* Identified how customer behaviour varies across engagement levels
+* Evaluated conversion rates across job categories (job)
+
+* Identified high- and low-performing customer segments
+
+3.9 Engagement Analysis (Call Duration)
+
+* Compared call duration distributions between converted and non-converted customers
+
+* Identified relationship between call duration and conversion likelihood
+
+3.10 Behavioural Analysis (Duration Binning)
+
+* Grouped call duration into intervals (bins)
+
+* Analyzed how conversion patterns change across engagement levels
 
 
 ## 4.) Tech Stack
