@@ -14,7 +14,7 @@
 
 Source: UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/222/bank+marketing)
 
-* Contains data from direct telemarketing campaigns by a Portuguese bank aimed at promoting term deposit subscriptions
+* Contains data from direct telemarketing campaigns by a bank aimed at promoting term deposit subscriptions.
   
 * Includes customer demographics, campaign interactions, and economic indicators to predict whether a client converts.
 
@@ -24,43 +24,54 @@ Source: UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/222
 
 ## 3.) Analysis Performed
 
-3.1) Data Cleaning & Feature Engineering:
+3.1 Data Cleaning & Preprocessing:
 
-   🔹 Handled missing values and duplicates
-  
-   🔹 Created key variables such as churn flags, tenure, and engagement indicators
+* Removed duplicates and checked for missing values
 
-3.2) Customer Behavior Aggregation
+* Created key variables such as converted to represent campaign outcome
 
-  🔹 Transformed raw usage logs into customer-level metrics: Usage, Duration, Errors, Feature adoption
+3.2 Funnel Analysis:
 
-3.3) KPI Analysis
+* Calculated total users at each stage (contacted → engaged → converted)
 
- 🔹  Evaluated core business metrics: Churn rate, Customer count, Average customer lifetime
+* Computed overall conversion rates and visualised funnel performance
 
-3.4) Churn Segmentation
+3.3 Drop-off Analysis:
 
-  🔹 Analyzed churn rates across: Plan tiers, Geographic regions
+* Measured user loss between funnel stages
 
-3.5) Customer Lifetime Analysis
+* Identified where the largest decline in customer progression occurs
 
-  🔹 Examined tenure distributions
-  
-  🔹 Compared churned vs retained customers
+3.4 Campaign Performance Analysis:
 
-3.6) Cohort Retention Analysis
+* Analyzed conversion rates by contact type and campaign activity
 
-  🔹 Built cohort models based on signup month
-  
-  🔹 Tracked retention trends over time
+* Evaluated how the number of contacts (campaign) impacts conversion
 
-3.7)  Retention Driver Analysis
+3.5 Time-Based Analysis:
 
-  🔹 Identified relationships between churn and: Product usage, Error rates, Feature adoption
+* Examined conversion performance across different months
 
-3.8) Advanced Retention Modeling
+* Identified seasonal patterns in campaign effectiveness
 
-   🔹 Explored interactions between: Feature usage, Retention rates, Revenue (MRR) across customer segments
+3.6 Conversion Driver Analysis: 
+
+* Assessed the impact of previous campaign outcomes (poutcome) on conversion
+
+* Analyzed conversion rates across customer segments such as job category
+
+3.7 Engagement Analysis:
+
+* Investigated relationship between call duration and conversion likelihood
+
+* Analyzed distribution of call durations to understand engagement patterns
+
+3.8 Behavioural Analysis:
+
+* Explored duration-based patterns using grouped intervals (bins)
+
+* Identified how customer behaviour varies across engagement levels
+
 
 ## 4.) Tech Stack
 
