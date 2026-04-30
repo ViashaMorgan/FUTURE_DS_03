@@ -206,18 +206,20 @@ Source: UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/222
 
 
 ## 6.) Dashboard Preview
-> Link to the dashboard: 
+> Link to the dashboard: https://app.powerbi.com/links/1A2q9-W_DM?ctid=4b1b908c-5582-4377-ba07-a36d65e34934&pbi_source=linkShare
 
+<img width="1109" height="1039" alt="image" src="https://github.com/user-attachments/assets/ea6df6ca-9335-40ca-ae1b-1f1690973073" />
 
 
 
 ## 7.) Business Recommendations
 
+The analysis shows that the main issue lies at the conversion stage, so the business should prioritise improving bottom-of-funnel performance through stronger sales execution, clearer value propositions, and a more streamlined onboarding process. Contact strategies should be optimised by reducing excessive follow-ups and focusing on quality interactions, as longer, more engaging calls drive higher conversions. Marketing efforts should be reallocated toward high-performing channels like cellular, while also targeting high-intent segments such as previously successful customers and high-converting groups like students and retirees. Additionally, campaign planning should align with seasonal peaks by increasing activity during high-conversion months and refining strategies during weaker periods to improve overall efficiency.
 
 
 ## 8.) Outcome
 
-
+This analysis shows that the business is good at attracting and engaging users but is losing most of them before they convert into customers. It highlights that conversion is strongly influenced by factors like contact method, number of interactions, customer segment, and timing. These findings point to a clear opportunity to improve how leads are converted, which would significantly increase overall performance.
 
 ## 👤 Author
 
