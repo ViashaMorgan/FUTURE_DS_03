@@ -206,7 +206,7 @@ Source: UCI Machine Learning Repository (https://archive.ics.uci.edu/dataset/222
 
 
 ## 6.) Dashboard Preview
-> Link to the dashboard: https://app.powerbi.com/links/ZYNsIljxdx?ctid=4b1b908c-5582-4377-ba07-a36d65e34934&pbi_source=linkShare
+> Link to the dashboard: 
 
 
 
